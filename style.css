@@ -33,11 +33,14 @@ body {
     flex-direction: roll;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .cabecalho-imagem {
-    height: 200px;
+    height: 100px;
+}
+
+.dp-menu {
+    margin-bottom: 48px;
 }
 
 .dp-menu ul {
@@ -99,6 +102,11 @@ body {
     font-size: 18px;
 }
 
+.cursos-ul {
+    display: flex;
+    flex-direction: column;
+}
+
 .conteudo {
     margin-bottom: 48px;
     border-top: 0.4px solid #fff2e791;
@@ -109,6 +117,7 @@ body {
     flex-direction: roll;
     align-items: center;
     justify-content: space-around;
+    padding-top: 48px;
 }
 
 .conteudo-principal-escrito {
