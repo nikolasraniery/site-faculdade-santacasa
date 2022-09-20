@@ -99,6 +99,11 @@ body {
     font-size: 18px;
 }
 
+.cursos-ul {
+    display: flex;
+    flex-direction: column;
+}
+
 .conteudo {
     margin-bottom: 48px;
     border-top: 0.4px solid #fff2e791;
