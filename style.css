@@ -148,11 +148,27 @@ body {
 
 .conteudo-principal-escrito-botao:hover {
     background-color: rgba(236, 214, 196, 0.53);
+    transform: scale(110%);
+    transition: 0.2s all;
+    cursor: pointer;
+    outline: none;
+}
+
+.conteudo-principal-escrito-botao:not(:hover) {
+    transform: scale(100%);
+    transition: 0.2s all;
+    background-origin: initial;
+}
+
+.conteudo-principal-escrito-botao:active {
+    transform: scale(105%);
 }
 
 .conteudo-principal-imagem {
+    display: 100%;
     margin-top: 48px;
     height: 430px;
+    -webkit-mask-image: linear-gradient(to top, transparent 10%, black 30%); 
 }
 
 .conteudo-secundario {
